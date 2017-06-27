@@ -18,7 +18,7 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.index("Hi BBlocks! Your new scala mvc application is ready. Bart"))
+    Ok(views.html.index("Hi BBlocks! Your new scala mvc application is ready. Bart, nu via webhook"))
   }
 
 }
